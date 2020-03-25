@@ -1,8 +1,11 @@
 #!/bin/sh
 
+
+## Update APU2 Bios to https://3mdeb.com/open-source-firmware/pcengines/apu2/apu2_v4.11.0.4.rom
 ## By BoucheCousue.com
-# Update APU2 Bios to https://3mdeb.com/open-source-firmware/pcengines/apu2/apu2_v4.10.0.0.rom
+
 # Adapt this script if you want to use a different version of the BIOS
+# You can find them here https://3mdeb.com/open-source-firmware/pcengines/apu2/
 
 # Display info about the BIOS
 echo "Some info about your system's BIOS:"
@@ -26,9 +29,9 @@ if [ "$CONDITION" == "y" ]; then
         ## remove dirt
 		rm apu2*.rom
 		## get the file
-		fetch https://3mdeb.com/open-source-firmware/pcengines/apu2/apu2_v4.10.0.0.rom
+		fetch https://3mdeb.com/open-source-firmware/pcengines/apu2/apu2_v4.11.0.4.rom
 		# flash it
-		flashrom -w apu2_v4.10.0.0.rom -p internal:boardmismatch=force
+		flashrom -w apu2_v4.11.0.4.rom -p internal:boardmismatch=force
 		# get out and run
 		echo "Finito"
 fi

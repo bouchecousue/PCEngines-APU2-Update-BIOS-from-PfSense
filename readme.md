@@ -10,7 +10,7 @@ We are an IT company based in Paris. If you need help, hire us! * [BoucheCousue]
 
 SSH into your PfSense APU2 and run 
 ```
-curl hupdate.sh -O && chmod +x update.sh && ./update.sh
+curl https://raw.githubusercontent.com/bouchecousue/PCEngines-APU2-Update-BIOS-from-PfSense/master/update.sh -O && chmod +x update.sh && ./update.sh
 ```
 
 ### Prerequisites
