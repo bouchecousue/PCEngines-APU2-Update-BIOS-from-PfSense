@@ -3,7 +3,7 @@
 A very simple script to update APU2 s machines from PCEngines to another BIOS version. Please use at your own risk.
 If you have improvments to make, do not hesitate.
 
-We are an IT company based in Paris. If you need help, hire us! * [BoucheCousue](https://bouchecousue.com)
+We are an IT company based in Paris. If you need help, hire us! => [BoucheCousue](https://bouchecousue.com)
 
 
 ## Getting Started
@@ -15,10 +15,10 @@ curl https://raw.githubusercontent.com/bouchecousue/PCEngines-APU2-Update-BIOS-f
 
 ### Prerequisites
 
-PfSense 2.2.x
-APU2 board
+* Tested on PfSense 2.4.x
+* APU2 board
 
 
-## Built With
+## Source for the Firmware
 
-* [APU2 Firmwares](https://3mdeb.com/open-source-firmware/pcengines/apu2/) -
+* [APU2 Firmwares](https://3mdeb.com/open-source-firmware/pcengines/apu2/)

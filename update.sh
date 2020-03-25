@@ -6,6 +6,7 @@
 
 # Adapt this script if you want to use a different version of the BIOS
 # You can find them here https://3mdeb.com/open-source-firmware/pcengines/apu2/
+# The script checks if the system really is an APU2 to avoid you from flashing a wrong device
 
 # Display info about the BIOS
 echo "Some info about your system's BIOS:"
